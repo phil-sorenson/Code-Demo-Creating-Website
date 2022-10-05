@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightskyblue;
+    color:white;
+    margin:0;
+}
+
+header {
+    background-color: darkgrey;
+    position: relative;
+    padding: 1rem;
+}
+
+nav a {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+main {
+    margin: 1rem auto;
+    width: 80%;
+}
+
+main section {
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
+.home img {
+    float: left;
+    margin-right: 3rem;
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 3rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
